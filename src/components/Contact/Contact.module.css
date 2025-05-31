@@ -1,0 +1,29 @@
+.contactItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 12px 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.text {
+    font-size: 16px;
+    color: #000000;
+}
+
+.button {
+    padding: 6px 10px;
+    background-color: #e5e5e6;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #484848;
+}
